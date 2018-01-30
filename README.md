@@ -1,7 +1,7 @@
 # Commerce Countries plugin for Craft CMS
 
 Multiselect field of Countries from Craft Commerce
-![Screenshot](resources/screenshot.png)
+![Screenshot](/screenshot.png)
 
 ## Installation
 
