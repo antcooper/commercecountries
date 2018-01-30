@@ -1,0 +1,14 @@
+{
+	"name": "antcooper/commercecountries",
+	"description": "Multiselect of Countries from Craft Commerce",
+	"type": "craft-plugin",
+	"authors": [
+		{
+			"name": "Ant Cooper",
+			"homepage": "http://antcooper.com"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}

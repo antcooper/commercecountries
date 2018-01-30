@@ -1,0 +1,17 @@
+{% import "_includes/forms" as forms %}
+{% set countries = craft.commerce.countriesList %}
+
+{{ forms.multiselect({
+    id: id,
+    name: name,
+    options: countries,
+    values: values,
+    class: 'selectize fullwidth',
+}) }}
+
+{% includejs %}
+    $('#fields-{{ id }}').selectize({
+        plugins: ['remove_button'],
+        dropdownParent: 'body'
+    });
+{% endincludejs %}
